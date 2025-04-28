@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Qouts.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qouts</title>
+</head>
+
+<body>
+    <!-- First Navbar -->
+    <section class="nav_a">
+        <div>
+            <h2>The Big Books of Spring <a
+                    href="https://www.goodreads.com/blog/show/2896-readers-84-most-anticipated-books-of-spring?ref=BigBooksSpring25_eb">
+                    Discover this season's most anticipated reads > </a>
+            </h2>
+        </div>
+    </section>
+
+    <!-- Secound Navbar -->
+    <section class="nav_b">
+        <nav class="navbar">
+            <div class="logo">good<span>reads</span></div>
+            <ul class="nav-links">
+                <li class="na_1"><a href="">Home</a></li>
+                <li class="na_2"><a href="">My Books</a></li>
+
+                <!-- Browse Dropdown -->
+                <li class="dropdown">
+                    <a href="">Browse ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Recommendations</a></li>
+                        <li><a href="">Choice Awards</a></li>
+                        <li><a href="">Giveaway</a></li>
+                        <li><a href="">New Releases</a></li>
+                        <li><a href="">Lists</a></li>
+                        <li><a href="">Explore</a></li>
+                        <li><a href="">News & Interviews</a></li>
+
+
+                    </ul>
+                </li>
+
+                <!-- Community Dropdown -->
+                <li class="dropdown">
+                    <a href="">Community ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Groups</a></li>
+                        <li><a href="">Quuts</a></li>
+                        <li><a href="">Ask the Author</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search books">
+                <button>🔍</button>
+            </div>
+
+            <ul class="auth-links">
+                <li class="auth"><a href="">Sign In</a></li>
+                <li class="lin"><a href="">Join</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="btn">
+        <h1>Random Quote Generator</h1>
+    
+        <div id="quoteDisplay">Click the button to see a quote</div>
+        
+        <button onclick="showRandomQuotes()">Show Random Quote</button>
+    </section>
+
+    <script src="Qouts.js"></script>
+</body>
+
+</html>
